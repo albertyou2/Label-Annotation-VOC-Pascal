@@ -1,3 +1,12 @@
+# first
+this repo is forked from https://github.com/manhcuogntin4/Label-Annotation-VOC-Pascal
+I add a small fuction
+can read read label info if imagefiles has their labels in <images_files_dir>_label.
+For example :
+if you have a img dir named '001',if you have imgs label dir named 001_label in same level forlder with '001'
+the label data can be read and reuse.
+if '001_label' not exists,it be will create.
+
 # LabelImg
 
 [![Build Status](https://travis-ci.org/tzutalin/labelImg.png)](https://travis-ci.org/tzutalin/labelImg)
